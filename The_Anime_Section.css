@@ -2,10 +2,54 @@
 /* Filename: The_Anime_Section.css*/
 /* Author: Malachi Perrin */
 
-.row button {
-  background-color: rgba(0, 0, 0, 0.65);
+@media (max-width: 576px) {
+
+  .btn-group-vertical {
+    background-color: rgba(0, 0, 0, 0.65);
+      position: relative;
+      bottom: 180px;
+      left: 120px;
+      margin-bottom: 2px;
+  }
+
+  /* popup window starts */
+  .bg-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .modal-content {
+    width: 500px;
+    height: 300px;
+    background-image: url("happy.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    text-align: center;
+    padding: 100px 20px 0px 20px;
     position: relative;
-    bottom: 180px;
-    left: 120px;
-    margin-bottom: 2px;
+  }
+
+  .info {
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+  }
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+  } /* popup window ends */
 }

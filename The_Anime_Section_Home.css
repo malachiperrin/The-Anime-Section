@@ -1,0 +1,26 @@
+
+body {
+  background-image: url("cute.jpg");
+}
+
+#topAnime {
+  
+}
+
+.jumbotron {
+  background-image: url("AnimeLogo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  margin-top: 10px;
+}
+
+
+/* Become a VIP button */
+#VIP {
+  position: relative;
+  left: 500px;
+  top: 280px;
+  background-color: #DA52AF;
+}
